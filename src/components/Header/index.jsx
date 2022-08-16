@@ -1,23 +1,73 @@
-import React from 'react'
+import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
-import './Header.css'
+import "./Header.css";
 
 const Header = () => {
+  function handleLink(e) {
+    e.preventDefault();
+    console.log();
+  }
+
   return (
     <header>
       <nav>
         <p>
-          <a href="#Home">‹GA/›</a>
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          ‹GA/›
+        </Link>
         </p>
         <ul>
-          <a href="#Home"><li className='active'>Home</li></a>
-          <a href="#Sobre"><li>Sobre</li></a>
-          <a href="#Experiência"><li>Experiência</li></a>
-          <a href="#Projects"><li>Projetos</li></a>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <li>Home</li>
+          </Link>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <li>Sobre</li>
+          </Link>
+          <Link
+            activeClass="active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            >
+            <li>Experiência</li>
+          </Link>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <li>Projetos</li>
+          </Link>
         </ul>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

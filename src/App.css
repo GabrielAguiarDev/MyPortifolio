@@ -6,9 +6,10 @@
 
 :root {
   --nav: #111111;
-  --body: #0c0c0c;
-  --body-secundario: #1b1b1b;
-  --text: #c4c4c4;;
+  --section: #0c0c0c;
+  --section-secundario: #1b1b1b;
+  --text: #c4c4c4;
+  --button: #fff;
   --cor-principal: #00d2df;
   --cor-secundaria: #a50505;
 }
@@ -22,8 +23,8 @@
 }
 
 body {
-  background-color: var(--body);
-  color: #fff;
+  background-color: var(--section);
+  color: var(--text);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -33,10 +34,29 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar {
   width: 10px;
-  background-color: var(--body-secundario);
+  background-color: var(--section-secundario);
+}
+
+section {
+  min-height: 100vh;
+  padding: 6.5% 15%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @keyframes alternateColor {
+  from {
+    color: var(--cor-principal);
+  }
+  to {
+    color: var(--cor-secundaria);
+  }
+}
+
+@keyframes alternateBorderColor {
   from {
     border-color: var(--cor-principal);
   }

@@ -15,10 +15,9 @@ nav {
 }
 
 p a {
-    text-decoration: none;
     padding: 10px;
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.3rem;
     letter-spacing: 1px;
     color: var(--cor-principal);
@@ -55,8 +54,11 @@ ul li:hover::after {
     transform: scaleX(1);
 }
 
+ul a.active li::after {
+    transform: scaleX(1);
+}
+
 ul a {
-    text-decoration: none;
     color: var(--text);
     font-size: 18px;
     font-weight: 500;

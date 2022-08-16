@@ -1,0 +1,23 @@
+footer {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer p a {
+    padding: 0px 2px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-principal);
+}
+
+footer p span {
+    animation: alternateColor 3s 0s alternate infinite;
+}
