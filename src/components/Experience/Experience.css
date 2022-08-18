@@ -1,3 +1,83 @@
 .experience {
     background-color: var(--section);
 }
+
+.experience h1 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.experience_container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.experience_container ul {
+    display: flex;
+    flex-direction: column;
+    min-width: 10rem;
+}
+
+.experience_container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid var(--section-secundario);
+    padding: 9px 0px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--section);
+    transition: all ease 0.3s;
+}
+
+.experience_container ul li.active {
+    border-left-color: var(--cor-principal);
+    background-color: #ffffff13;
+}
+
+.experience_container ul li:hover {
+    border-left-color: var(--cor-principal);
+    background-color: #ffffff13;
+    cursor: pointer;
+}
+
+.experience_container ul li:hover::after {
+    transform: scaleX(0);
+}
+
+.experience_jobs .jobs {
+    position: relative;
+}
+
+.experience_jobs h1 {
+    font-weight: 500;
+}
+
+.experience_jobs .jobs span {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.experience_jobs h2 {
+    font-weight: 500;
+    font-size: 0.85rem;
+    margin: 2rem 0;
+    color: var(--cor-principal);
+}
+
+.experience_jobs p {
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+#job_2, #job_3 {
+    display: none;
+}

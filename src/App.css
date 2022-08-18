@@ -38,6 +38,7 @@ body::-webkit-scrollbar {
 }
 
 section {
+  position: relative;
   min-height: 100vh;
   padding: 6.5% 15%;
 }
