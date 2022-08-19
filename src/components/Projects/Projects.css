@@ -1,3 +1,74 @@
 .projects {
     background-color: var(--section-secundario);
 }
+
+.projects .projects_container h1 {
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--text);
+}
+
+.projects .projects_container .project_wrapper {
+    display: grid;
+    grid-template-areas: "1 2";
+    grid-gap: 40px 153px;
+}
+
+.projects .projects_container .project_wrapper .project_card {
+    width: 100%;
+}
+
+.projects .projects_container .project_wrapper .project_card h2 {
+    margin: 2rem 0;
+}
+
+.projects .projects_container .project_wrapper .project_card p {
+    margin-bottom: 1rem;
+}
+
+.projects .projects_container .project_wrapper .project_card span {
+    font-size: 14px;
+    color: var(--cor-principal);
+}
+
+.projects .projects_container .project_wrapper .project_card a {
+    text-decoration: none;
+    color: var(--button);
+    display: block;
+    margin: 2rem 0;
+}
+
+.projects .projects_container .project_wrapper .project_card a img {
+    width: 100%;
+    border-left: 4px solid var(--cor-principal);
+    opacity: 55%;
+    transition: all ease 0.5s;
+}
+
+.projects .projects_container .project_wrapper .project_card a img:hover {
+    opacity: 100%;
+    border-left-color: var(--cor-secundaria);
+}
+
+.projects .projects_container .project_wrapper .project_card .project_link a {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    padding: 10px 15px;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-right: 30px;
+    color: var(--button);
+    font-weight: 500;
+    font-size: 17px;
+    transition: all ease 0.3s;
+    gap: 0.5rem;
+    animation: alternateBorderColor 3s 0s alternate-reverse infinite;
+}
+
+.projects .projects_container .project_wrapper .project_card .project_link a:hover {
+    background-color: #ffffff10;
+    text-shadow: 1px 1px 3px var(--cor-principal);
+}

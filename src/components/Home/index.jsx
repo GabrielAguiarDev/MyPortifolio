@@ -11,14 +11,14 @@ const Home = () => {
       <div className='home_description'>
         <h1>Olá, eu sou</h1>
         <div className="myName">Gabriel Aguiar</div>
-        <h2>Desenvolvedor Fullstack</h2>
+        <h2>Desenvolvedor Fullstack Júnior</h2>
         <div className='social_link'>
           <a href="https://www.linkedin.com/in/gabriel-aguiar-dev/" target="_blank"><BsLinkedin />Linkedin</a>
           <a href="https://github.com/GabrielAguiarDev" target="_blank"><BsGithub />Github</a>
         </div>
       </div>
       <div className='home_img'>
-        <img src={process.env.PUBLIC_URL + "/developer.gif"} alt="developer"/>
+        <img src={process.env.PUBLIC_URL + "/images/developer.gif"} alt="developer"/>
       </div>
       <div className='home_scroll'>
       <Link

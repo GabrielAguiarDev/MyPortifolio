@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className='about' name="about">
       <div className='about_photo'>
-        <img src={process.env.PUBLIC_URL + "/perfil.jpeg"} alt="Foto de perfil" />
+        <img src={process.env.PUBLIC_URL + "/images/perfil.jpeg"} alt="Self de Gabriel Aguiar" />
       </div>
       <div className="about_text">
         <h1>SOBRE MIM</h1>
