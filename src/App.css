@@ -25,6 +25,7 @@
 body {
   background-color: var(--section);
   color: var(--text);
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar-thumb {
