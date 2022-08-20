@@ -4,6 +4,7 @@ import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { FiChevronsDown } from 'react-icons/fi'
 
 import './Home.css'
+import './responsive.css'
 
 const Home = () => {
   return (

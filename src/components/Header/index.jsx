@@ -1,7 +1,9 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { HiMenu } from "react-icons/hi"
 
 import "./Header.css";
+import "./responsive.css"
 
 const Header = () => {
   function handleLink(e) {
@@ -23,6 +25,7 @@ const Header = () => {
           ‹GA/›
         </Link>
         </p>
+        <HiMenu />
         <ul>
           <Link
             activeClass="active"

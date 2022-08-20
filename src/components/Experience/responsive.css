@@ -1,0 +1,29 @@
+@media (max-width: 1080px) {
+    .experience {
+        padding: 6% 3%;
+    }
+}
+
+@media (max-width: 800px) {
+    .experience_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience_container ul {
+        width: 53vw;
+    }
+
+    .experience_container .experience_jobs {
+        text-align: center;
+    }
+
+    .experience_container .experience_jobs .jobs span {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+    }
+}

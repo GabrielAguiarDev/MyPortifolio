@@ -1,0 +1,37 @@
+@media (max-width: 1080px) {
+    .projects {
+        padding: 6% 3%;
+    }
+
+    .projects .projects_container .project_wrapper {
+        grid-gap: 40px 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .projects .projects_container .project_wrapper {
+        grid-template-areas: "1";
+    }
+
+    .projects .projects_container .project_wrapper .project_card {
+        text-align: center;
+    }
+
+    .projects .projects_container .project_wrapper .project_card h2 {
+        font-size: 2rem;
+    }
+
+    .projects .projects_container .project_wrapper .project_card p {
+        font-size: 1.5rem;
+    }
+
+    .projects .projects_container .project_wrapper .project_card span {
+        font-size: 1.3rem;
+    }
+
+    .projects .projects_container .project_wrapper .project_card .project_link a {
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+}
+

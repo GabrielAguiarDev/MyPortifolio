@@ -1,0 +1,22 @@
+@media (max-width: 1080px) {
+    .about {
+        padding: 6% 3%;
+    }
+}
+
+
+@media (max-width: 960px) {
+    .about {
+        flex-direction: column;
+        padding: 6% 10%;
+        gap: 1rem;
+    }
+
+    .about_text {
+        text-align: center;
+    }
+
+    .about .about_text .about_curriculo a {
+        margin: 0;
+    }
+}

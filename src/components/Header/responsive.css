@@ -1,0 +1,33 @@
+@media (max-width: 1080px) {
+    nav {
+        padding: 0% 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        text-align: center;
+        background-color: var(--nav);
+        border-radius: 8px;
+        border: 1px solid var(--cor-principal);
+        transition: all ease 0.2s;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    nav ul.active {
+        opacity: 1;
+        top: 80px
+    }
+
+    nav svg {
+        display: block;
+        font-size: 35px;
+        color: var(--cor-principal);
+        cursor: pointer;
+    }
+}

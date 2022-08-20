@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 import "./Experience.css";
+import "./responsive.css"
+
 import Job from "./Jobs";
 
 const Experience = () => {

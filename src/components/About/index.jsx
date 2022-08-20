@@ -2,6 +2,7 @@ import React from 'react'
 import { RiDownloadCloudLine } from 'react-icons/ri'
 
 import './About.css'
+import './responsive.css'
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque vero neque similique delectus eveniet consequatur iure beatae? Voluptate aliquam quam asperiores quidem rem? Quas corrupti obcaecati officiis ut nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, earum. Mollitia obcaecati, minima quos omnis, culpa velit eius atque assumenda sapiente facilis praesentium laborum laboriosam cum deserunt a dolorem animi.
         </p>
-        <div className='about_currículo'>
+        <div className='about_curriculo'>
           <a href={process.env.PUBLIC_URL + "/Gabriel Aguiar.pdf"} download>
             <RiDownloadCloudLine />
             Currículo

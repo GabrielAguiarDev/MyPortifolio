@@ -42,11 +42,11 @@
     margin: 0;
 }
 
-.about .about_text .about_currículo {
+.about .about_text .about_curriculo {
     margin-top: 2rem;
 }
 
-.about .about_text .about_currículo a {
+.about .about_text .about_curriculo a {
     align-items: center;
     justify-content: center;
     display: inline-flex;
@@ -62,11 +62,11 @@
     animation: alternateBorderColor 3s 0s alternate-reverse infinite;
 }
 
-.about .about_text .about_currículo a:hover {
+.about .about_text .about_curriculo a:hover {
     background-color: #ffffff10;
     text-shadow: 1px 1px 3px var(--cor-principal);
 }
 
-.about .about_text .about_currículo a svg {
+.about .about_text .about_curriculo a svg {
     font-size: 24px;
 }

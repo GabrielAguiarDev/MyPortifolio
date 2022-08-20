@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 
 import './Projects.css'
+import './responsive.css'
 
 const Projects = () => {
   return (
