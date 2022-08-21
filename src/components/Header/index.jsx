@@ -1,14 +1,17 @@
-import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { HiMenu } from "react-icons/hi"
 
 import "./Header.css";
 import "./responsive.css"
 
 const Header = () => {
-  function handleLink(e) {
+
+  const [menu, setMenu] = useState(true);
+
+  function handleMenu(e) {
     e.preventDefault();
-    console.log();
+    setMenu(!menu)
   }
 
   return (
@@ -25,7 +28,7 @@ const Header = () => {
           ‹GA/›
         </Link>
         </p>
-        <HiMenu />
+        <HiMenu className={!menu ? "active" : ""} onClick={handleMenu} />
         <ul>
           <Link
             activeClass="active"

@@ -5,6 +5,10 @@
     background-color: var(--section);
 }
 
+.home .home_container {
+    display: flex;
+}
+
 .home_description {
     width: 50%;
 }

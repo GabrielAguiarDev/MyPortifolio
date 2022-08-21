@@ -7,7 +7,7 @@ import './responsive.css'
 const Projects = () => {
   return (
     <section className='projects' name="projects">
-      <div className="projects_container">
+      <div data-aos="fade-right" className="projects_container">
         <h1>Projetos</h1>
         <div className="project_wrapper">
           <Card 

@@ -8,19 +8,19 @@
     color: var(--text);
 }
 
-.experience_container {
+.experience_info {
     display: flex;
     gap: 2rem;
     margin-top: 2rem;
 }
 
-.experience_container ul {
+.experience_info ul {
     display: flex;
     flex-direction: column;
     min-width: 10rem;
 }
 
-.experience_container ul li {
+.experience_info ul li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,18 +33,18 @@
     transition: all ease 0.3s;
 }
 
-.experience_container ul li.active {
+.experience_info ul li.active {
     border-left-color: var(--cor-principal);
     background-color: #ffffff13;
 }
 
-.experience_container ul li:hover {
+.experience_info ul li:hover {
     border-left-color: var(--cor-principal);
     background-color: #ffffff13;
     cursor: pointer;
 }
 
-.experience_container ul li:hover::after {
+.experience_info ul li:hover::after {
     transform: scaleX(0);
 }
 

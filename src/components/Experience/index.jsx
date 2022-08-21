@@ -79,22 +79,24 @@ const Experience = () => {
 
   return (
     <section className="experience" name="experience">
-      <h1>Experiência</h1>
-      <div className="experience_container" >
-        <ul>
-          <li className={`${classActive === 1 ? "active" : ""}`} onClick={() => {handleJob(1)}}>Job 1</li>
-          <li className={`${classActive === 2 ? "active" : ""}`} onClick={() => {handleJob(2)}}>Job 2</li>
-          <li className={`${classActive === 3 ? "active" : ""}`} onClick={() => {handleJob(3)}}>Job 3</li>
-        </ul>
-        <div className="experience_jobs">
-          {job && job.map(myJob => (
-            <Job 
-            title={myJob.title}
-            date={myJob.date}
-            subTitle={myJob.subTitle}
-            description={myJob.description}
-            />
-          ))}
+      <div data-aos="fade-right">
+        <h1>Experiência</h1>
+        <div className="experience_info" >
+          <ul>
+            <li className={`${classActive === 1 ? "active" : ""}`} onClick={() => {handleJob(1)}}>Job 1</li>
+            <li className={`${classActive === 2 ? "active" : ""}`} onClick={() => {handleJob(2)}}>Job 2</li>
+            <li className={`${classActive === 3 ? "active" : ""}`} onClick={() => {handleJob(3)}}>Job 3</li>
+          </ul>
+          <div className="experience_jobs">
+            {job && job.map(myJob => (
+              <Job
+              title={myJob.title}
+              date={myJob.date}
+              subTitle={myJob.subTitle}
+              description={myJob.description}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

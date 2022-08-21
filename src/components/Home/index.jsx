@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { FiChevronsDown } from 'react-icons/fi'
 
@@ -14,8 +14,8 @@ const Home = () => {
         <div className="myName">Gabriel Aguiar</div>
         <h2>Desenvolvedor Fullstack Júnior</h2>
         <div className='social_link'>
-          <a href="https://www.linkedin.com/in/gabriel-aguiar-dev/" target="_blank"><BsLinkedin />Linkedin</a>
-          <a href="https://github.com/GabrielAguiarDev" target="_blank"><BsGithub />Github</a>
+          <a href="https://www.linkedin.com/in/gabriel-aguiar-dev/" target="_blank" rel='noopener noreferrer'><BsLinkedin />Linkedin</a>
+          <a href="https://github.com/GabrielAguiarDev" target="_blank" rel='noopener noreferrer'><BsGithub />Github</a>
         </div>
       </div>
       <div className='home_img'>

@@ -4,7 +4,7 @@ import { HiLink } from 'react-icons/hi'
 const Card = ({ url, img, name, description, technologies }) => {
   return (
     <div className="project_card">
-        <a href={url}>
+        <a href={url} target="_blank" rel='noopener noreferrer'>
             <img src={img} alt={name} />
         </a>
         <h2>{name}</h2>

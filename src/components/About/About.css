@@ -1,52 +1,55 @@
 .about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     min-height: 95vh;
     background-color: var(--section-secundario);
+}
+
+.about_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 3rem;
 }
 
-.about .about_photo {
+.about .about_container .about_photo {
     min-width: 30%;
     margin-bottom: 2rem;
 }
 
-.about .about_photo img {
+.about .about_container .about_photo img {
     width: 260px;
     border-left: 5px solid var(--cor-principal);
     opacity: 55%;
     transition: all ease 0.5s;
 }
 
-.about .about_photo img:hover {
+.about .about_container .about_photo img:hover {
     opacity: 100%;
     border-left-color: var(--cor-secundaria);
 }
 
-.about .about_text h1 {
+.about .about_container .about_text h1 {
     font-weight: 500;
     margin-bottom: 2rem;
 }
 
-.about .about_text h2 {
+.about .about_container .about_text h2 {
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 1rem;
 }
 
-.about .about_text p {
+.about .about_container .about_text p {
     font-weight: 400;
     line-height: 1.5rem;
     margin: 0;
 }
 
-.about .about_text .about_curriculo {
+.about .about_container .about_text .about_curriculo {
     margin-top: 2rem;
 }
 
-.about .about_text .about_curriculo a {
+.about .about_container .about_text .about_curriculo a {
     align-items: center;
     justify-content: center;
     display: inline-flex;
@@ -62,11 +65,11 @@
     animation: alternateBorderColor 3s 0s alternate-reverse infinite;
 }
 
-.about .about_text .about_curriculo a:hover {
+.about .about_container .about_text .about_curriculo a:hover {
     background-color: #ffffff10;
     text-shadow: 1px 1px 3px var(--cor-principal);
 }
 
-.about .about_text .about_curriculo a svg {
+.about .about_container .about_text .about_curriculo a svg {
     font-size: 24px;
 }

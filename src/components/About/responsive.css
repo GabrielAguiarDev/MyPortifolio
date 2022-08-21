@@ -6,7 +6,7 @@
 
 
 @media (max-width: 960px) {
-    .about {
+    .about_container {
         flex-direction: column;
         padding: 6% 10%;
         gap: 1rem;
@@ -16,7 +16,7 @@
         text-align: center;
     }
 
-    .about .about_text .about_curriculo a {
+    .about_container .about_text .about_curriculo a {
         margin: 0;
     }
 }
