@@ -1,6 +1,8 @@
 # Portfolio
 My personal portfolio made with React
 
+![screencapture-portifolio](./public/images/print_Portifolio.png)
+
 ## 🛠️ Built with
 * HTML5
 * CSS3
