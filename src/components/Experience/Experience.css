@@ -11,7 +11,7 @@
 .experience_info {
     display: flex;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .experience_info ul {
@@ -26,6 +26,7 @@
     justify-content: center;
     border-left: 2px solid var(--section-secundario);
     padding: 9px 0px;
+    letter-spacing: 2px;
     margin: 0;
     width: 100%;
     text-align: center;

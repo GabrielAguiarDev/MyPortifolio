@@ -15,7 +15,7 @@ const About = () => {
           <h1>SOBRE MIM</h1>
           <h2>Porto Seguro, Bahia</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque vero neque similique delectus eveniet consequatur iure beatae? Voluptate aliquam quam asperiores quidem rem? Quas corrupti obcaecati officiis ut nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, earum. Mollitia obcaecati, minima quos omnis, culpa velit eius atque assumenda sapiente facilis praesentium laborum laboriosam cum deserunt a dolorem animi.
+            Olá, sou estudante de desenvolvimento web com dedicação nos estudos para futuramente ser um desenvolvedor fullstack. Em Out/2020 obtive equipamento para começar a estudar e praticar programação e até hoje me mantenho em constante aprendizado estudando por conta própria fazendo diversos cursos e me mantendo informado sobre o que há de novo na comunidade DEV. Estou cursando Análise e Desenvolvimento de Sistema e continuo meus estudos, tendo em mente que estamos sempre em constante aprendizado.
           </p>
           <div className='about_curriculo'>
             <a href={process.env.PUBLIC_URL + "/Gabriel Aguiar.pdf"} download>

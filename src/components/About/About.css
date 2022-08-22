@@ -40,9 +40,10 @@
 }
 
 .about .about_container .about_text p {
-    font-weight: 400;
-    line-height: 1.5rem;
+    font-weight: 300;
+    line-height: 1.6rem;
     margin: 0;
+    font-size: 17px;
 }
 
 .about .about_container .about_text .about_curriculo {

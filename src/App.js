@@ -15,7 +15,7 @@ import './App.css';
 function App() {
   
   useEffect(() => {
-    Aos.init({ duration: 1300 });
+    Aos.init({ duration: 1000 });
   })
 
   return (

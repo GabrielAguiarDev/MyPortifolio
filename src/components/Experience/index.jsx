@@ -15,11 +15,10 @@ const Experience = () => {
       id: 1,
       job: [
         {
-          title: "Titulo 1",
-          date: "Set 2021",
-          subTitle: "Sub Titulo 1",
+          title: "Em busca da minha primeira experiência \"oficial\"",
+          subTitle: "quem sabe na sua empresa?",
           description: 
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates explicabo, error iusto nihil, tempore sint consectetur ab velit dignissimos labore vero neque fugit necessitatibus quisquam cum omnis, laborum quibusdam cumque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error labore et distinctio reiciendis doloribus obcaecati aspernatur at sit quo, totam earum magnam laudantium doloremque voluptatum, autem repellat neque consequuntur possimus."
+            "Estou disponível para bater um papo, você pode entrar em contato via e-mail gabriel.aguiar.dev@gmail.com"
         }
       ]
     },
@@ -27,23 +26,11 @@ const Experience = () => {
       id: 2,
       job: [
         {
-          title: "Titulo 2",
-          date: "Mar 2022",
-          subTitle: "Sub Titulo 2",
+          title: "Portifolio para Fotógrafo",
+          date: "Set 2022",
+          subTitle: "Portifolio - Projeto Freelancer",
           description: 
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates explicabo, error iusto nihil, tempore sint consectetur ab velit dignissimos labore vero neque fugit necessitatibus quisquam cum omnis, laborum quibusdam cumque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error labore et distinctio reiciendis doloribus obcaecati aspernatur at sit quo, totam earum magnam laudantium doloremque voluptatum, autem repellat neque consequuntur possimus."
-        }
-      ]
-    },
-    {
-      id: 3,
-      job: [
-        {
-          title: "Titulo 3",
-          date: "Jun 2022",
-          subTitle: "Sub Titulo 3",
-          description: 
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates explicabo, error iusto nihil, tempore sint consectetur ab velit dignissimos labore vero neque fugit necessitatibus quisquam cum omnis, laborum quibusdam cumque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error labore et distinctio reiciendis doloribus obcaecati aspernatur at sit quo, totam earum magnam laudantium doloremque voluptatum, autem repellat neque consequuntur possimus."
+            "Minha primeira oportunidade na área de tecnologia. Esse é um projeto criado em ReactJS e sendo desenvolvido totalmente pensado na responsividade, projeto em desenvolvimento."
         }
       ]
     }
@@ -80,12 +67,11 @@ const Experience = () => {
   return (
     <section className="experience" name="experience">
       <div data-aos="fade-right">
-        <h1>Experiência</h1>
+        <h1>EXPERIÊNCIA</h1>
         <div className="experience_info" >
           <ul>
-            <li className={`${classActive === 1 ? "active" : ""}`} onClick={() => {handleJob(1)}}>Job 1</li>
-            <li className={`${classActive === 2 ? "active" : ""}`} onClick={() => {handleJob(2)}}>Job 2</li>
-            <li className={`${classActive === 3 ? "active" : ""}`} onClick={() => {handleJob(3)}}>Job 3</li>
+            <li className={`${classActive === 1 ? "active" : ""}`} onClick={() => {handleJob(1)}}>👀👀</li>
+            <li className={`${classActive === 2 ? "active" : ""}`} onClick={() => {handleJob(2)}}>Portifolio</li>
           </ul>
           <div className="experience_jobs">
             {job && job.map(myJob => (

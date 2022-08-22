@@ -13,7 +13,7 @@ const Card = ({ url, img, name, description, technologies }) => {
         <div className="project_link">
             <a href={url}>
                 <HiLink />
-                Visualizar
+                Repositório
             </a>
         </div>
     </div>
