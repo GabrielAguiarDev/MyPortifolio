@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GabrielAguiarDev/MyPortifolio/static/css/main.45be4c70.css",
+    "main.js": "/GabrielAguiarDev/MyPortifolio/static/js/main.b3fa1a43.js",
+    "index.html": "/GabrielAguiarDev/MyPortifolio/index.html",
+    "main.45be4c70.css.map": "/GabrielAguiarDev/MyPortifolio/static/css/main.45be4c70.css.map",
+    "main.b3fa1a43.js.map": "/GabrielAguiarDev/MyPortifolio/static/js/main.b3fa1a43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45be4c70.css",
+    "static/js/main.b3fa1a43.js"
+  ]
+}
