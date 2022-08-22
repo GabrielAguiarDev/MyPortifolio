@@ -20,7 +20,7 @@
     }  
 
     .home .home_description h2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -38,7 +38,7 @@
     }
 
     .home .home_description h2 {
-        width: 100vw;
+        width: 90vw;
     }
 
     .home .home_description .social_link {

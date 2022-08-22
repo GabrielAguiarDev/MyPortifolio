@@ -17,7 +17,3 @@ footer p a {
     font-weight: 500;
     color: var(--cor-principal);
 }
-
-footer p span {
-    animation: alternateColor 3s 0s alternate infinite;
-}
