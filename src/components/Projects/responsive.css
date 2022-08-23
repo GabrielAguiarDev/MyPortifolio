@@ -18,7 +18,7 @@
     }
 
     .projects .projects_container .project_wrapper .project_card h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .projects .projects_container .project_wrapper .project_card p {
@@ -30,7 +30,7 @@
     }
 
     .projects .projects_container .project_wrapper .project_card .project_link a {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         margin: 2rem 0;
     }
 }
