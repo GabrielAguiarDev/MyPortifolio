@@ -30,8 +30,9 @@ const Experience = () => {
           date: "Set 2022",
           subTitle: "Portifolio - Projeto Freelancer",
           description: 
-            "Minha primeira oportunidade na área de tecnologia. Esse é um projeto criado em ReactJS e sendo desenvolvido totalmente pensado na responsividade, projeto em desenvolvimento."
-        }
+            "Este portifólio foi desenvolvido com foco no design e experiência do usuário, pois se tratava de um portifólio de um fotografo profissional, que por sua vez desejava um portifólio a sua altura em questão de profissionalismo.",
+          subDescription: "Desenvolver esse projeto foi um desafio para mim pois ainda não obtinha muito conhecimento sobre design, entretando sempre fui muito curioso em relação a novos assuntos e muito dedicado, com isso, pesquisei e estudei sobre design e obtive um resultado incrível em comparação aos meus projetos anteriores. Com esse projeto tive um grande avanço profissional, tanto em novas tecnologias que precisei aprender durante o desenvolvimento do projeto, quanto em responsabilidade para entregar um trabalho a um cliente.",
+        },
       ]
     }
   ]
@@ -80,6 +81,7 @@ const Experience = () => {
               date={myJob.date}
               subTitle={myJob.subTitle}
               description={myJob.description}
+              subDescription={myJob.subDescription}
               />
             ))}
           </div>
